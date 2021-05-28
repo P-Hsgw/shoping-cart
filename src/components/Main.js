@@ -1,3 +1,5 @@
+import React from "react";
+
 function Main () {
   return(
     <div className="bg-cultured h-screen flex justify-center items-center flex-col">

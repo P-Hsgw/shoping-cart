@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom"
+
 function Header () {
   return(
     <div className="justify-end items-center h-12 flex bg-prussian-blue absolute w-screen ">
@@ -6,10 +9,10 @@ function Header () {
       </p>
       <ul>
         <li className="inline-block m-5 text-cultured text-2xl">
-          Main
+          <Link to="/">Home</Link>
         </li>
         <li className="inline-block m-5 text-cultured text-2xl">
-          Store
+          <Link to="/shop"Store>Shop</Link>
         </li>
         <li className="inline-block m-5 text-gamboge text-2xl ">
           CART
