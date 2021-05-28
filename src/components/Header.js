@@ -12,7 +12,7 @@ function Header () {
           <Link to="/">Home</Link>
         </li>
         <li className="inline-block m-5 text-cultured text-2xl">
-          <Link to="/shop"Store>Shop</Link>
+          <Link to="/shop">Shop</Link>
         </li>
         <li className="inline-block m-5 text-gamboge text-2xl ">
           CART

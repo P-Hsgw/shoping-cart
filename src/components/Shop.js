@@ -1,14 +1,24 @@
 import React from "react";
 import Header from "./Header"
+import Product from "./Product"
 
 function Shop () {
   return(
     <>
     <Header />
-    <div>
-      <p>
-        HELLO
-      </p>
+    <div className="bg-cultured h-screen flex justify-center items-center ">
+      <Product />
+      <Product />
+
+      <Product />
+
+      <Product />
+
+      <Product />
+
+      <Product />
+
+
     </div>
     </>
   )
