@@ -1,31 +1,18 @@
 import React from "react";
+import uniqid from "uniqid"
+
 import Header from "./Header"
+import { productsList } from "./Products"
 import Product from "./Product"
 
 function Shop () {
   return(
     <>
     <Header />
-    <div className="bg-cultured h-screen flex flex-wrap justify-center items-center ">
-      <Product />
-      <Product />
-
-      <Product />
-
-      <Product />
-
-      <Product />
-
-      <Product />
-
-      <Product />
-
-      <Product />
-
-      <Product />
-
-
-
+    <div className="bg-cultured min-h-screen flex flex-wrap justify-center items-center ">
+      {productsList.map((product) => 
+        <Product key={uniqid()} productName={product.name} productImage={product.image} />
+      )}
     </div>
     </>
   )
