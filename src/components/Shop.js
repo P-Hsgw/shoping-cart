@@ -6,7 +6,7 @@ function Shop () {
   return(
     <>
     <Header />
-    <div className="bg-cultured h-screen flex justify-center items-center ">
+    <div className="bg-cultured h-screen flex flex-wrap justify-center items-center ">
       <Product />
       <Product />
 
@@ -17,6 +17,13 @@ function Shop () {
       <Product />
 
       <Product />
+
+      <Product />
+
+      <Product />
+
+      <Product />
+
 
 
     </div>

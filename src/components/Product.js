@@ -11,7 +11,7 @@ function Product() {
         IMAGE
       </div>
       <div>
-      <button>HERRRO</button>
+      <button className="border-2 border-solid border-prussian-blue rounded m-2 px-1 hover:bg-gamboge">Add to cart</button>
       </div>
     </div>
   )
