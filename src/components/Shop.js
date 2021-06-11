@@ -11,7 +11,7 @@ function Shop () {
     <Header />
     <div className="bg-cultured min-h-screen flex flex-wrap justify-center items-center ">
       {productsList.map((product) => 
-        <Product key={uniqid()} productName={product.name} productImage={product.image} />
+        <Product key={uniqid()} productName={product.name} productImage={product.image} productPrice={product.price} />
       )}
     </div>
     </>
